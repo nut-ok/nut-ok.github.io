@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     margin: 0;
     background-color: #f0f0f0;
@@ -11,7 +13,7 @@ body {
     transition: background-color 0.3s;
 }
 
-/* dark mode switch stuff */
+/* Dark mode switch styles */
 .mode-switch {
     display: inline-block;
     position: relative;
@@ -68,7 +70,7 @@ body {
 }
 
 .mode-switch input:checked + .mode-switch-label {
-    background-color: #27ae60; 
+    background-color: #27ae60;
 }
 
 .mode-switch input:checked + .mode-switch-label:before {
@@ -87,4 +89,26 @@ body {
 body.dark-mode {
     background-color: #333;
     color: #f0f0f0;
+}
+
+/* Discord link styles */
+.discord-link {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.discord-link a {
+    display: flex;
+    align-items: center;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.discord-link a:hover {
+    color: #05e3fc;
+}
+
+.discord-link i {
+    margin-right: 5px;
 }
