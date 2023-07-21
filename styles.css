@@ -11,7 +11,7 @@ body {
     transition: background-color 0.3s; 
 }
 
-/* Dark mode switch styles */
+/* dark mode switch stuff */
 .mode-switch {
     display: inline-block;
     position: relative;
@@ -83,18 +83,8 @@ body {
     opacity: 1;
 }
 
-/* Dark mode styles */
+/* dark mode background */
 body.dark-mode {
     background-color: #333;
     color: #f0f0f0;
-}
-
-/* Just for fun interaction */
-h1, h2 {
-    transition: transform 0.3s; 
-}
-
-h1:hover,
-h2:hover {
-    transform: rotate(10deg); /* idk if this works */
 }
